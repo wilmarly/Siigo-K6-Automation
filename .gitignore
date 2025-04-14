@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Editor y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración temporales
+*.log
+npm-debug.log*
+
+# Configuración de entorno
+config/env.json
+.env
+
+# Reportes y dashboards
+reports/
+dashboards/*.json
+
+# Caché de K6
+.k6_cache/

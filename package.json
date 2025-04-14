@@ -1,0 +1,44 @@
+{
+  "name": "siigo-k6-automation",
+  "version": "1.0.0",
+  "description": "Automatización de pruebas no funcionales",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "ansi-styles": "^4.3.0",
+    "async": "^3.2.6",
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "chalk": "^4.1.2",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "concat-map": "^0.0.1",
+    "ejs": "^3.1.10",
+    "filelist": "^1.0.4",
+    "has-flag": "^4.0.0",
+    "jake": "^10.9.2",
+    "k6-html-reporter": "^1.0.5",
+    "minimatch": "^3.1.2",
+    "supports-color": "^7.2.0",
+    "reqres-api-java-k6": "file:"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilmarly/Siigo-K6-Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilmarly/Siigo-K6-Automation/issues"
+  },
+  "homepage": "https://github.com/wilmarly/Siigo-K6-Automation#readme",
+  "devDependencies": {
+    "k6-html-reporter": "^1.0.5"
+  }
+}
