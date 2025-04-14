@@ -25,7 +25,11 @@
     "reqres-api-java-k6": "file:"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "smoke": "k6 run tests/smoke_test.js --summary-export=reports/stress_test_results.json",
+    "load": "k6 run tests/load_test.js --summary-export=reports/load_test_results.json",
+    "stress": "k6 run tests/stress_test.js --summary-export=reports/stress_test_results.json",
+    "spike": "k6 run tests/spike_test.js --summary-export=reports/stress_test_results.json",
+    "soak": "k6 run tests/soak_test.js --summary-export=reports/stress_test_results.json"
   },
   "repository": {
     "type": "git",
